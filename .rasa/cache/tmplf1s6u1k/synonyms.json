@@ -1,0 +1,18 @@
+{
+  "comedy": "comedy",
+  "horror": "horror",
+  "action": "action",
+  "crime": "crime",
+  "thriller": "thriller",
+  "romance": "romance",
+  "adventure": "adventure",
+  "children": "children",
+  "drama": "drama",
+  "animation": "animation",
+  "mystery": "Mystery",
+  "documentary": "Documentary",
+  "fantasy": "Fantasy",
+  "musical": "Musical",
+  "sci-fi": "Sci-Fi",
+  "war": "War"
+}

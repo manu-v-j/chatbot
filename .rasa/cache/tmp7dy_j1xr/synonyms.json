@@ -1,0 +1,12 @@
+{
+  "rock": "rock",
+  "pop": "pop",
+  "jazz": "jazz",
+  "hip-hop": "hip-hop",
+  "classical": "classical",
+  "country": "country",
+  "indie": "indie",
+  "electronic": "electronic",
+  "blues": "blues",
+  "reggae": "reggae"
+}

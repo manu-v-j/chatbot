@@ -1,0 +1,42 @@
+version: "3.1"
+
+
+- stories:
+  - story: music recommendation path
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: request_music_recommendation
+      - action: utter_ask_genre
+      - intent: specify_genre
+        entities:
+          - genre: "rock"  # This is the genre requested by the user
+      - action: action_recommend_music
+      - intent: goodbye
+      - action: utter_goodbye
+
+
+ 
+
+
+  #- story: ask_order_process path
+  #  steps:
+  #    - intent: ask_order_process
+  #    - action: utter_ask_order_process
+
+  #- story: ask_location path
+  #  steps:
+  #    - intent: ask_location
+  #    - action: utter_ask_location
+
+  #- story: ask_delivery path
+  #  steps:
+  #    - intent: ask_delivery
+  #    - action: utter_ask_delivery
+
+  #- story: ask_offers path
+  #  steps:
+  #    - intent: ask_offers
+  #    - action: utter_ask_offers
+
+ 

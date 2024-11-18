@@ -1,0 +1,11 @@
+Menu_Item_ID,Menu_Item,Category,Description,Price,Size,Calories,Availability,Last_Updated
+1,Pepperoni Pizza,Pizza,Classic pizza with pepperoni and cheese,12.99,Large,250,True,2024-01-01
+2,Margherita Pizza,Pizza,Cheese pizza with tomato and basil,10.99,Large,220,True,2024-01-01
+3,BBQ Chicken Pizza,Pizza,BBQ chicken with onions and cheese,13.99,Large,300,True,2024-01-01
+4,Veggie Pizza,Pizza,Loaded with vegetables,11.99,Large,200,True,2024-01-01
+5,Hawaiian Pizza,Pizza,Ham and pineapple pizza,13.49,Large,280,True,2024-01-01
+6,Garlic Breadsticks,Sides,Breadsticks with garlic butter,5.99,Medium,150,True,2024-01-01
+7,Chicken Wings,Sides,Spicy chicken wings,7.99,Medium,250,True,2024-01-01
+8,Caesar Salad,Salad,Fresh Caesar salad with croutons,8.49,Medium,180,True,2024-01-01
+9,Coke,Drinks,Classic Coca-Cola,1.99,Regular,140,True,2024-01-01
+10,Brownie Sundae,Dessert,Brownie topped with ice cream,6.99,Regular,400,True,2024-01-01

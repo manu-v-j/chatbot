@@ -1,0 +1,31 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - request_music_recommendation
+  - specify_genre
+
+slots:
+  genre:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: genre  # Entity for capturing music genres (e.g., rock, pop, jazz)
+
+entities:
+  - genre  # Entity for capturing genres of music (e.g., rock, jazz, pop)
+
+responses:
+  utter_greet:
+    - text: "Hello! I can help you with music recommendations. What genre are you in the mood for?"
+
+  utter_goodbye:
+    - text: "Goodbye! Enjoy your music!"
+
+  utter_ask_genre:
+    - text: "What genre of music would you like to listen to?"
+
+actions:
+  - action_recommend_music  # Custom action for recommending music based on genre
